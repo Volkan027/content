@@ -1,0 +1,174 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(images/thema-bg.png);
+    color: white;
+}
+
+h1 {
+    font-family: 'Gamer Station', sans-serif;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: 'Gamer Station', sans-serif;
+    letter-spacing: 5px;
+    margin-top: 2em;
+}
+
+h3 {
+    font-family: 'Gamer Station', sans-serif;
+    letter-spacing: 5px;
+    margin-top: 2em;
+}
+
+p {
+    margin-bottom: 2em;
+}
+ 
+header {
+    background: url(images/banner-final.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.LOGO {
+    width: 8em;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.gif {
+    width: 12em;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+ 
+nav ul {
+    list-style: none;
+}
+ 
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+ 
+nav a {
+    font-family: 'Gamer Station', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    transition: all 250ms ease;
+}
+
+nav a:hover {
+    color: mediumaquamarine;
+    transform: scale(1.3);
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 80%;
+    padding: 2em;
+    background-color: rgba(22, 22, 22, 0.9)
+}
+
+h3 {
+    margin-top: 4em;
+}
+ 
+section {
+    margin: 20px;
+}
+ 
+footer {
+    background: url(images/banner-final.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-family: 'Gamer Station', sans-serif;
+    letter-spacing: 3px;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.episode {
+    display: flex;
+}
+
+.contact {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #301934;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.over-ons {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    opacity: 100%;
+    width: 70%;
+    height: auto;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+}
+
+footer img {
+    width: 3em;
+    height: auto;
+}
+
+
+
+/*banner*/
+/*https://www.vecteezy.com/vector-art/5071443-realistic-dark-purple-background-with-low-poly-shape-and-shadow-abstract-purple-banner*/
+
+/*background/*
+/*https://stock.adobe.com/search/images?k=gamer+background&asset_id=323880864*/
+
